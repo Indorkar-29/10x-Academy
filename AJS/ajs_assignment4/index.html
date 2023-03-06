@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="content">
+        <br>
+        <h1>Shopping Cart</h1>
+        <div class="controls-input">
+            <input id="name" placeholder="Enter Item name here">
+            <input id="price" placeholder="Enter Item price here">
+            <input id="add-item" value="Add" type="button">
+        </div><br><br>
+        <div class="table">
+            <table class="item-table" border="2" cellspacing="5" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th data-ns-test="item-name">ITEM NAME</th>
+                        <th data-ns-test="item-price">ITEM PRICE</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+                <tfoot>
+                    <th>Grand Total</th>
+                    <th id="total">0</th>
+                </tfoot>
+            </table>
+        </div>
+
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

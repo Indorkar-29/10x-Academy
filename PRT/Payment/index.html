@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <div class="main">
+        <form class="form" action="">
+            <div class="title">
+                <h1 style="margin-bottom: initial;">Payment</h1>
+                <p style="color: rgb(96,96,96); margin-top: inherit;">Complete your pro membership</p>
+            </div>
+            <div class="data">
+               <span style="margin-left: 20px;"><h1 class="usd" style="color: rgb(96,96,96);">$</h1> <h1 class="usd">899</h1><h2 class="usd" style="color: rgb(96,96,96);">USD</h2></span>
+               <hr style="color: darkgray"><br>
+               <div class="checkbox" style="margin-left: 20px;">
+                <input type="checkbox" name="messaging" value="messaging" checked>
+                <label for="messaging">Messaging</label>
+                <input type="checkbox" style="margin-left: 40px;" name="analytics" value="analytics" checked>
+                <label for="analytics">Analytics</label><br><br>
+                <input type="checkbox" name="support" value="support" checked>
+                <label for="support">Support</label>
+                <input type="checkbox" style="margin-left: 58px;" name="discounts" value="discounts" checked>
+                <label for="discounts">Discounts</label><br><br>
+               </div>
+                <a href="" style="margin-left: 20px;">Know more</a>
+            </div>
+            <div class="payment">
+                <h4>Pay with card</h4>
+                <input class="card" type="text" placeholder="**** **** **** ****"><br><br>
+                <input class="card-details" type="text" placeholder="mm / yy">
+                <input class="card-details" style="margin-left: 10px;" type="text" placeholder="CVV"><br><br>
+                <button class="button">Make payment</button>
+            </div>
+        </form>
+        <div class="invoice">
+            <span style="margin-left: 20px;"><h2 class="usd">Invoice</h2><a href="" style="margin-left: 224px;">Download</a></span><br><br>
+            <div class="list">
+                <span><h4 class="usd" style="color: rgb(96,96,96);">Pro membership</h4> <h3 class="usd" style="margin-left: 204px;">$899</h3></span>
+                <hr style="color: darkgray">
+                <span><h4 class="usd" style="color: rgb(96,96,96);">Platform free</h4> <h3 class="usd" style="margin-left: 226px;">$10</h3></span>
+            </div><br>
+            <span style="margin-left: 20px;"><h2 class="usd">Total amount</h2><h2 style="margin-left: 177px; display: inline;">$909</h2></span><br>
+        </div>
+        <div class="success">
+            <div class="check">
+                <input class="tick" type="checkbox" checked>
+                <label for="checkbox"></label>
+            </div>
+            <br>
+            <h1 style="display: inline;">Success</h1>
+            <p style="margin-top: auto;">Your payment was processed</p>
+        </div>
+        <div class="remove">
+            <h1>Remove?</h1>
+            <p style="color: rgb(96,96,96);">Please confirm the changes, you can't redo this again.</p>
+            <button class="btn">Confirm</button><br><br>
+            <a href="" style="margin-left: 18px;">Take me back</a><br>
+        </div>
+    </div>
+</body>
+</html>

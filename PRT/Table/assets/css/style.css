@@ -1,0 +1,14 @@
+.main{
+    background-color: darkgray;
+    height: 80vh;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+    margin: 60px;
+}

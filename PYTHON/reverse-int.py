@@ -1,0 +1,14 @@
+n=int(input())
+sum=0
+neg=0
+if(n<0):
+    neg=1
+    n=n*-1
+while(n>0):
+    rem=n%10
+    sum=sum*10+rem
+    n=int(n/10)
+if(neg==1):
+    print(sum*-1)
+else:
+    print(sum)

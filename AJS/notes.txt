@@ -1,0 +1,52 @@
+ARRAY METHODS
+PUSH--> ADD ELEMENT AT THE END AND RETURNS UPDATED LENGTH OF AN ARRAY
+POP--> REMOVE ELEMENT FROM TAIL AND RETURN THE POPPED ELEMENT
+SHIFT--> REMOVE ELEMENT FROM HEAD AND RETURN THE POPPED ELEMENT
+UNSHIFT--> ADD ELEMENT AT HEAD AND RETURN THE UPDATED LENGTH
+CONCAT--> MERGE TWO OR MORE THAN TWO ARRAY AND RETURN THE NEW MERGED ARRAY
+SORT-> SORT THE ELEMENTS IN ALPHABETICAL ORDER
+SLICE--> RETURN BRAND NEW ARRAY CONTAINING ELEMENTS OF ORIGINAL ARRAY
+SPLICE--> RETURN THE REMOVED ELEMENTS AND MODIFY THE ORIGINAL ARRAY
+SPLIT--> ONLY WORKS FOR STRING AND RETURN ARRAY BASED ON THE SEPERATOR
+JOIN--> ONLY WORKS WITH ARRAY AND RETURN STRING BASED ON THE SEPERATOR
+INDEXOF--> GET THE INDEX OF FIRST OCCURANCE OF SPECIFIC ELEMENT INSIDE AN ARRAY
+LASTINDEXOF--> GET THE LAST OCCURANCE INDEX OF AN ELEMENT INSIDE AN ARRAY
+INCLUDES--> CHECK IF ELEMENT EXIST INSIDE AN ARRAY
+FOREACH--> ITERATE OVER ELEMENT
+
+AJS TOPICS COVERED IN SESSION:
+
+Js inheritance
+Prototypes, prototype chain & prototypical inheritance
+JS Multilevel inheritancex
+Property Descriptors
+Constructor Prototypes
+Protoype vs instance member
+Iterating Instance and Prototype Members
+Avoid Extending the Built-in Objects
+Creating own Prototypical inheritance
+Resetting the constructor
+Calling the super constructor
+Intermediate function inheritance
+Document Object Model
+DOM Manipulation,
+DOM model,
+DOM Selectors,
+DOM style maipulation
+DOM Manipulation, DOM Events
+Creating and Adding html elements to page
+Callback function
+JS Operators(All),
+ES6 Classes
+The this Keyword
+Getters & Setters
+Static Methods,PRIVATE, PUBLIC
+CLOSURES
+TYPE COERCION
+Inheritance
+Method Overriding
+JSON
+Promises
+fetch
+Ajax,
+ POSTMAN Intro

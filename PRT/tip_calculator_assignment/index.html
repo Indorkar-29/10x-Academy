@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <div class="main">
+        <div class="card-container">
+            <div class="input">
+                <label for="bill">Bill</label><br>
+                <input class="bill" id="bill-input" type="text" name="bill" placeholder="0" />
+                <div class="btn-container">
+                    <label for="tip">Select Tip</label>
+                    <div class="tip" >5%</div>
+                    <div class="tip" >10%</div>
+                    <div class="tip" >15%</div>
+                    <div class="tip" >25%</div>
+                    <div class="tip" >50%</div>
+                    <input class="custom" id="custom-tip" type="text" placeholder="Custom" />
+                </div>
+                <label for="people">Number of People</label>
+                <input class="people" id="people-input"  type="text" name="people" placeholder="0">
+                <p class="err" style="visibility: hidden;">*people are required</p>
+            </div>
+            <div class="result">
+                <div class="tip-amount">
+                    <h4>Tip Amount</h4>
+                    <p>/ person</p>
+                    <h1 class="amount">$0.00</h1>
+                </div>
+                <div class="total-amount">
+                    <h4>Total</h4>
+                    <p>/ person</p>
+                    <h1 class="amount">$0.00</h1>
+                </div>
+                <div class="reset-btn">RESET</div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

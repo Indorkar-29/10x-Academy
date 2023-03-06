@@ -1,0 +1,26 @@
+h1 {
+    display: inline-block;
+}
+
+.box1 {display: inline-block;}
+
+.box2 {
+    display: inline-block;
+}
+
+.nav {
+    margin: 15px;
+    text-align: center;
+    background: lightgray;
+}
+
+input#value {
+    padding: 10px;
+    border-radius: 5px;
+    width: 230px;
+}
+
+select#filter {
+    padding: 5px;
+    border-radius: 3px;
+}

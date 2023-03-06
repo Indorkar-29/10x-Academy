@@ -1,0 +1,6 @@
+Types of Linked List:
+
+(i) Singly Linked List(Unidirectional)
+(ii) Doubly Linked List(Bidirectional)
+(iii) Circular Linked List
+(iv) Circular Doubly Linked List

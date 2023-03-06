@@ -1,0 +1,19 @@
+.main{
+    margin: 115px 400px;
+    background-color: rgb(57, 53, 53);
+    padding: 50px;
+    padding-left: 235px;
+}
+.box {
+    border: 1px solid gray;
+    color: white;
+    padding-left: 26px;
+    margin-bottom: 5px;
+    width: 54%;
+    border-radius: 3px;
+}
+input#weight {
+    padding: 10px;
+    width: 55%;
+    border-radius: 3px;
+}

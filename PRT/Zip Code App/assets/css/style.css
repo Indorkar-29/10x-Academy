@@ -1,0 +1,39 @@
+.main {
+    margin: 50px;
+    padding: 100px 520px;
+    background: gray;
+}
+
+input#zip {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button#btn {
+    margin: 10px 0;
+    width: 325px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    font-size: large;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: x-large;
+    margin: 10px 58px;
+}
+
+div#box {
+    background: white;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-right: 55px;
+}
+
+h3{
+    display: inline;
+}

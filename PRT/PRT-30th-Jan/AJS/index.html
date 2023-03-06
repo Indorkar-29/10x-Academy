@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: white; font-family:math" >Calculator</h1>
+    <table class="calculator">
+        <tr>
+            <td colspan="3" ><input type="text" class="box" id="input" disabled></td>
+            <td><input type="button" value="C" onclick="clearScreen()" id="clr"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" id="block1" onclick="display('1')"/></td>
+            <td><input type="button" value="2" id="block2" onclick="display('2')"/></td>
+            <td><input type="button" value="3" id="block3" onclick="display('3')"/></td>
+            <td><input type="button" value="/" id="divide" onclick="display('/')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" id="block4" onclick="display('4')"/></td>
+            <td><input type="button" value="5" id="block5" onclick="display('5')"/></td>
+            <td><input type="button" value="6" id="block6" onclick="display('6')"/></td>
+            <td><input type="button" value="-" id="subtract" onclick="display('-')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" id="block7" onclick="display('7')"/></td>
+            <td><input type="button" value="8" id="block8" onclick="display('8')"/></td>
+            <td><input type="button" value="9" id="block9" onclick="display('9')"/></td>
+            <td><input type="button" value="+" id="add" onclick="display('+')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." id="dot" onclick="display('.')"/></td>
+            <td><input type="button" value="0" onclick="display('0')"/></td>
+            <td><input type="button" value="=" id="ans" onclick="calculate()"></td>
+            <td><input type="button" value="*" id="multiply" onclick="display('*')"/></td>
+        </tr>
+    </table>
+    <script src="./assets/js/script.js" ></script>
+</body>
+</html>

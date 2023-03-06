@@ -1,0 +1,12 @@
+.content {
+    background-color: aquamarine;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.table {
+    margin-left: 200px;
+}
